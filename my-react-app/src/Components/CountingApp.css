@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.popup {
+    position: fixed;
+    top:-150px;
+    left: 200px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.popup-content {
+    background-color: rgb(10, 17, 216);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color:#ffffff;
+}
+.counting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mango{
+    background-color: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.orange{
+    background-color: #FFA500;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.apple{
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size:15px;  
+}
+.icon{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
